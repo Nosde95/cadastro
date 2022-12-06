@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #027585;
+}
+h2{
+    color: #00ff9dc5;
+    font-size: 10vw;
+    margin-bottom: 5px;
+}
+/*Cabeçalho*/
+header{
+    display: grid;
+    grid-template-columns: 80px auto 90px;
+    gap: 10px;
+    background-color: #b8eb7d;
+    padding: 10px;
+}
+#logo img{
+    height: 80px;
+}
+#lema{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(7, 255, 181);
+}
+#busca input{
+    margin-top: 30px;
+    width: 75%;
+}
+button img{
+    width: 15px;
+}
+#lupa{
+    width: 15px;
+}
+/*Barra de menu*/
+nav{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: white;
+    text-align: center;
+}
+nav div:hover{
+    background-color: rgb(21, 228, 217);
+    color: white;
+}
+nav div a:hover{
+    color: white;
+}
+nav div{
+    border-right: 2px solid #16a06b;
+    border-left: 2px solid #16a06b;
+    border-bottom: 3px solid #16a06b;
+    border-top: 3px solid #16a06b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav div a{
+    text-decoration: none;
+    color: #16a06b;
+    font-size: 4vw;
+    font-weight: bold;
+    padding: 15px 20px;
+}
+
+/*Rodapé*/
+#rodape{
+    display: grid;
+    grid-template-columns: 34% 33% 24% ;
+    text-align: center;
+    margin-left: 20px;
+}
+footer h4{
+    text-align: center;
+}
