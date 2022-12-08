@@ -2,7 +2,6 @@
 session_start();
 include "database.php";
 
-
 if(isset($_POST['submit'])){
     $email=$_POST['email'];
     $senha=md5($_POST['senha']);
@@ -22,5 +21,5 @@ if(isset($_POST['submit'])){
         $msg['class']="danger";
         $_SESSION['msgs'][]=$msg;
     }
-    header("Location: index.php");
+    header("Location: "URL_BASE"index.php");
 }
