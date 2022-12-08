@@ -21,5 +21,5 @@ if(isset($_POST['submit'])){
         $msg['class']="danger";
         $_SESSION['msgs'][]=$msg;
     }
-    header("Location: "URL_BASE"index.php");
+    header("Location: index.php");
 }
