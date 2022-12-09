@@ -4,7 +4,7 @@ include "database.php";
 
 if(isset($_POST['submit'])){
     $email=$_POST['email'];
-    $senha=md5($_POST['senha']);
+    $senha=$_POST['senha'];
     $sql="SELECT idusuario, nome, email FROM usuario 
     Where email='$email' AND senha='$senha'";
     $resultado=$con->query($sql);
