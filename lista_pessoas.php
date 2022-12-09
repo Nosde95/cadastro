@@ -14,7 +14,7 @@
                         </div>
                         
                         <div style="display:grid;grid-template-columns: auto auto;grid-gap: 30px;padding: 20px;">
-                            <a href="editar.php?id='.$pessoa['idnome'].'">editar</a>
+                            <a style="text-align: center;" href="editar.php?id='.$pessoa['idnome'].'">editar</a>
                             <a style="text-align: center;" href="excluir.php?id='.$pessoa['idnome'].'">excluir</a>
                         </div>
                     </div>';
