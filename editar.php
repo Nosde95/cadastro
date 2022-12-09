@@ -37,7 +37,3 @@ if(isset($_POST['atual'])){
     header("Location: index.php");
 }
 
-include "lista_pessoas.php";
-
-
-include "./template/footer.php";
